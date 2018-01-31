@@ -1,0 +1,80 @@
+<ion-view title="Fotos">
+    <ion-content padding="true" class="" ng-controller="PhotosCtrl">
+        <div class="row">
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('0')">
+                    <img src="../img/fotos/150-150-1484683509067.jpg" class="photo">
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('1')">
+                    <img src="../img/fotos/150-150-DSC_0130.JPG" class="photo">
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('2')">
+                    <img src="../img/fotos/150-150-1502120969419.jpg" class="photo">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('3')">
+                    <img src="../img/fotos/150-150-DSC_0047.JPG" class="photo">
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('4')">
+                    <img src="../img/fotos/150-150-DSC_0095.JPG" class="photo">
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('5')">
+                    <img src="../img/fotos/150-150-DSC_0124.JPG" class="photo">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('6')">
+                    <img src="../img/fotos/150-150-DSC_0097.JPG" class="photo">
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('7')">
+                    <img src="../img/fotos/150-150-DSC_0089.JPG" class="photo">
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('8')">
+                    <img src="../img/fotos/150-150-DSC_0100.JPG" class="photo">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('9')">
+                    <img src="../img/fotos/150-150-DSC_0013.JPG" class="photo">
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('10')">
+                    <img src="../img/fotos/150-150-DSC_0101.JPG" class="photo">
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="javascript:void(0)" ng-click="openModal('11')">
+                    <img src="../img/fotos/150-150-DSC_0166.JPG" class="photo">
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
+<script id="image-modal.html" type="text/ng-template">
+  <div class="modal image-modal transparent" 
+	   ng-click="closeModal()">
+	<ion-slide-box on-slide-changed="slideChanged(index)" show-pager="false">
+		<ion-slide><img src="../img/fotos/1484683509067.jpg" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0130.JPG" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/1502120969419.jpg" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0047.JPG" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0095.JPG" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0124.JPG" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0097.JPG" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0089.JPG" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0100.JPG" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0013.JPG" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0101.JPG" class="fullscreen-image"></ion-slide><ion-slide><img src="../img/fotos/DSC_0166.JPG" class="fullscreen-image"></ion-slide>
+	</ion-slide-box>
+  </div>
+</script>
